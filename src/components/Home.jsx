@@ -16,6 +16,7 @@ const educationData = [
       <img
         src="https://img.icons8.com/emoji/48/000000/school-emoji.png"
         className="mx-2"
+        alt="school emoji"
       />
     ),
     subject: "Bachelor Of Technology(B.Tech)",
@@ -29,6 +30,7 @@ const educationData = [
       <img
         src="https://img.icons8.com/emoji/48/000000/school-emoji.png"
         className="mx-2"
+        alt='school emoji'
       />
     ),
     subject: "12th HBSE Board",
@@ -42,6 +44,7 @@ const educationData = [
       <img
         src="https://img.icons8.com/emoji/48/000000/school-emoji.png"
         className="mx-2"
+        alt='school emoji'
       />
     ),
     subject: "10th HBSE Board",
@@ -242,7 +245,7 @@ const Home = ({ bgColor, bg, education }) => {
                 <img
                   src={Avnish}
                   className="mohitimg  img-responsive "
-                  alt="image"
+                  alt="Avnish Chhara"
                 />
               </figure>
               {/* <img className="d-block  w-100" src={Home3} alt="First slide" /> */}
@@ -262,7 +265,7 @@ const Home = ({ bgColor, bg, education }) => {
               <img
                 src={education[1]}
                 className=" mohitbio img-responsive "
-                alt="image"
+                alt="Experience"
               />
             </figure>
           </div>
@@ -308,7 +311,7 @@ const Home = ({ bgColor, bg, education }) => {
               <img
                 src={education[0]}
                 className=" mohitbio img-responsive "
-                alt="image"
+                alt="education item"
               />
             </figure>
           </div>
@@ -351,7 +354,7 @@ const Home = ({ bgColor, bg, education }) => {
             className="col-md-6 col-12 m-auto order-md-0 order-0"
           >
             <figure>
-              <img src={Home5} className="w-100" alt="image" />
+              <img src={Home5} className="w-100" alt="skill item" />
             </figure>
           </div>
           <div
@@ -398,7 +401,7 @@ const Home = ({ bgColor, bg, education }) => {
             style={{ background: bg }}
           >
             <div className="card-body">
-              <img src="https://img.icons8.com/fluent/48/000000/group-of-projects.png" />
+              <img src="https://img.icons8.com/fluent/48/000000/group-of-projects.png" alt="" />
               <h5 className="card-title">Projects</h5>
               <p className="card-text text-muted">
                 I have Developed some projects.
@@ -418,7 +421,7 @@ const Home = ({ bgColor, bg, education }) => {
             style={{ background: bg }}
           >
             <div className="card-body">
-              <img src="https://img.icons8.com/color/48/000000/joomla.png" />
+              <img src="https://img.icons8.com/color/48/000000/joomla.png" alt="" />
               <h5 className="card-title">Resume</h5>
               <p className="card-text text-muted">Download Resume</p>
               <a
@@ -442,7 +445,7 @@ const Home = ({ bgColor, bg, education }) => {
             style={{ background: bg }}
           >
             <div className="card-body">
-              <img src="https://img.icons8.com/nolan/48/certification.png" />
+              <img src="https://img.icons8.com/nolan/48/certification.png" alt="" />
               <h5 className="card-title">Certifications</h5>
               <p className="card-text text-muted">
                 Achivements and Certifications

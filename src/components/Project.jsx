@@ -61,7 +61,7 @@ const Project = ({ bg, bgColor }) => {
                   <img
                     class="card-img-top"
                     src={post.selectedFile}
-                    alt="Card image cap"
+                    alt="my project"
                   />
                   <div class="card-body">
                     <h5 class="card-title">{post.name}</h5>

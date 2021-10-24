@@ -26,7 +26,7 @@ const About = ({ bg, bgColor }) => {
   return (
     <div style={{ marginTop: "100px" }}>
       <div style={{ marginTop: "10vw" }}>
-        <img src={AboutHead} className="avnish-about" />
+        <img src={AboutHead} className="avnish-about" alt="about me" />
       </div>
 
       <div data-aos="zoom-out" className={bgColor + " container"}>
@@ -54,7 +54,7 @@ const About = ({ bg, bgColor }) => {
                 <img
                   class="card-img-top"
                   src={post.selectedFile}
-                  alt="Card image cap"
+                  alt="certificate"
                 />
                 <div class="card-body">
                   <h5 class="card-title">{post.company}</h5>

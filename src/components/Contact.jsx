@@ -13,6 +13,7 @@ const Contact = ({ bg, bgColor }) => {
           <div className="col-lg-8 col-md-8 col-12 mt-3">
             <div className="w-100">
               <iframe
+                title="Get Directions"
                 width="100%"
                 height="400"
                 frameborder="0"

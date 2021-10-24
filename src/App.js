@@ -13,7 +13,6 @@ import Education4 from "./Images/load4.gif";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/js/src/collapse.js";
 import { Switch, Route, Redirect } from "react-router-dom";
-import ScrollTop from "./components/ScrollTop";
 export default function App() {
   const [bgColor, setBgColor] = useState("Applight");
   const [bgtext, setBgtext] = useState("text-dark");
@@ -42,7 +41,6 @@ export default function App() {
 
   return (
     <div className={bgColor}>
-      <ScrollTop />
       <Navbar setTheme={setTheme} bgColor={bgColor} />
       <Switch>
         <Route

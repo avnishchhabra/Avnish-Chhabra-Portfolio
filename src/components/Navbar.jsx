@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Avnish from "../Images/avnish-avatar.png";
-// import Avnish from "./";
-// import Mohit from "../Images/mohit1.jpg";
 import Avatar from "@material-ui/core/Avatar";
-import style from "../styles.css";
 import "../styles.css";
 const Navbar = ({ setTheme, bgColor }) => {
   const [toggle, setToggle] = useState(false);
@@ -17,7 +14,7 @@ const Navbar = ({ setTheme, bgColor }) => {
   const setData = () => {
     setToggle(!toggle);
     setTheme(toggle);
-    if (toggle == true) {
+    if (toggle === true) {
       setNavbarColor("navbar navbar-expand-lg navbar-light bg-white fixed-top");
     } else {
       setNavbarColor("navbar navbar-expand-lg navbar-dark bg-darkk fixed-top");
